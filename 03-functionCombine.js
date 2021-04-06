@@ -1,5 +1,5 @@
 console.log("Running 03-functionCombine");
-var str1, str2, choice;
+var str1, str2, choice, output;
 
 choice = prompt("Use default strings? (y/n): ");
 
@@ -16,10 +16,11 @@ console.log("string 2 is " + str2);
 
 concat(str1, str2);
 
-console.log("03-functionCombine Complete");
+output = console.log("03-functionCombine Complete");
+console.log(output);
+  alert("Concatenated string is: " + output);
 
 
 function concat(str1, str2){
-  console.log(str1 + " + " + str2 + " = " + str1 + str2);
-  alert("Concatenated string is: " + str1 + str2);
+  return str1 + str2
 }
