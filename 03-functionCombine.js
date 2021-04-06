@@ -14,11 +14,12 @@ if(choice=="Y" || choice=="y"){
 console.log("string 1 is " + str1);
 console.log("string 2 is " + str2);
 
-concat(str1, str2);
+output = concat(str1, str2);
 
-output = console.log("03-functionCombine Complete");
+console.log("03-functionCombine Complete");
+
 console.log(output);
-  alert("Concatenated string is: " + output);
+alert("Concatenated string is: " + output);
 
 
 function concat(str1, str2){
